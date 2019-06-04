@@ -23,7 +23,12 @@ class Graph {
    }
    
    printGraph() {
-      
-      
+      this.vertices.map(function(singleNode){
+         this.adjacencyList[singleNode].map(singleList){
+          console.log(singleList)
+         }
+      })
    }
 }
+
+
