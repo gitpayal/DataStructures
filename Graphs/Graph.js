@@ -1,8 +1,4 @@
-class GraphNode {
-   contructor(val) {
-     this.val = val;
-   }
-}
+
 
 
 class Graph {
@@ -25,7 +21,7 @@ class Graph {
    printGraph() {
       this.vertices.map(function(singleNode){
          this.adjacencyList[singleNode].map(singleList){
-          console.log(singleList)
+          console.log("connection of node " + singleNode " : " +singleList)
          }
       })
    }
